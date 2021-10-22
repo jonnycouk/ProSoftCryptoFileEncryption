@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpAESCrypt">
+      <HintPath>..\Third Party\SharpAESCrypt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
